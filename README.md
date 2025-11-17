@@ -1,3 +1,3 @@
 # Hi-Fi Audio Amplifier projet
 
-Class A amplifier project based on JLH 1969 project.
+Class A audio amplifier project based on JLH 1969 project.
