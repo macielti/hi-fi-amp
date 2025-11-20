@@ -20,7 +20,7 @@ mill-feed = 100mm/min
 mill-infeed = 0.1mm
 mill-speed = 4700rpm
 voronoi = false
-zwork = -0.5mm
+zwork = -0.7mm
 extra-passes = 0
 offset = 0.1mm
 
