@@ -43,6 +43,6 @@ Valor total aproximado (somente a Fonte de Alimentação): **≈ R$ 303,20**
 - 1x BC556   (R$ 0,44)
 - 1x MJE340  (R$ 2,00)
 
-Valor total aproximado (somente ): **≈ R$ 81,15**
+Valor total aproximado (somente Amplificador de Áudio): **≈ R$ 81,15**
 
 ## Valor total do projeto (versão mono): ≈ R$ 384,35
