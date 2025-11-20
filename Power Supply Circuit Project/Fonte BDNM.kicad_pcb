@@ -42,8 +42,8 @@
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
-			(usegerberattributes no)
-			(usegerberadvancedattributes no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
@@ -217,7 +217,7 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 1.6 1.6)
+			(size 2.5 2.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -227,7 +227,7 @@
 		)
 		(pad "2" thru_hole circle
 			(at 5 0 90)
-			(size 1.6 1.6)
+			(size 2.5 2.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -251,7 +251,7 @@
 	(footprint "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 		(layer "F.Cu")
 		(uuid "143baad6-67c0-41a0-913c-f85d5a9ac582")
-		(at 41.697315 100.802685)
+		(at 41.75 103.4675)
 		(descr "terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu")
 		(tags "THT terminal block MaiXu MX126-5.0-02P pitch 5mm size 10.5x7.8mm drill 1.3mm pad 2.8mm")
 		(property "Reference" "J1"
@@ -949,7 +949,7 @@
 		)
 		(pad "2" thru_hole circle
 			(at 7.5 0 90)
-			(size 2 2)
+			(size 2.5 2.5)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -959,7 +959,7 @@
 		)
 		(pad "3" thru_hole circle
 			(at 15 0 90)
-			(size 2 2)
+			(size 2.5 2.5)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -969,7 +969,7 @@
 		)
 		(pad "4" thru_hole circle
 			(at 25 0 90)
-			(size 2 2)
+			(size 2.5 2.5)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -1123,7 +1123,7 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
-			(size 1.6 1.6)
+			(size 2.5 2.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -1133,7 +1133,7 @@
 		)
 		(pad "2" thru_hole circle
 			(at 5 0 270)
-			(size 1.6 1.6)
+			(size 2.5 2.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -1373,8 +1373,10 @@
 		)
 		(pad "1" thru_hole oval
 			(at 0 0)
-			(size 3.25 6)
-			(drill 1.3)
+			(size 16.625 6)
+			(drill 1.3
+				(offset 6.6875 0)
+			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 5 "Net-(J2-Pin_2)")
@@ -1383,8 +1385,10 @@
 		)
 		(pad "2" thru_hole oval
 			(at 37.5 0)
-			(size 3.25 6)
-			(drill 1.3)
+			(size 16.625 6)
+			(drill 1.3
+				(offset -6.6875 0)
+			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 6 "Net-(SW1-A)")
@@ -5981,7 +5985,7 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 1.6 1.6)
+			(size 2.5 2.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -5991,7 +5995,7 @@
 		)
 		(pad "2" thru_hole circle
 			(at 5 0 90)
-			(size 1.6 1.6)
+			(size 2.5 2.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -15909,7 +15913,7 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
-			(size 1.6 1.6)
+			(size 2.5 2.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -15919,7 +15923,7 @@
 		)
 		(pad "2" thru_hole circle
 			(at 5 0 270)
-			(size 1.6 1.6)
+			(size 2.5 2.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -16112,7 +16116,7 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
+			(size 2.5 2.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -16122,7 +16126,7 @@
 		)
 		(pad "2" thru_hole circle
 			(at 7.62 0)
-			(size 1.6 1.6)
+			(size 2.5 2.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -16375,7 +16379,7 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 1.8 1.8)
+			(size 2.5 2.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -16385,7 +16389,7 @@
 		)
 		(pad "2" thru_hole circle
 			(at 7.5 2.9 90)
-			(size 1.8 1.8)
+			(size 2.5 2.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -20862,6 +20866,45 @@
 		(layer "Edge.Cuts")
 		(uuid "6bc25a59-1eca-478e-a817-128b411bd15a")
 	)
+	(gr_text "bruno.pwn"
+		(at 92.5 102 0)
+		(layer "B.Cu" knockout)
+		(uuid "ae4418e6-37a8-4dcb-851a-0cec7c2f2407")
+		(effects
+			(font
+				(size 4.5 4.5)
+				(thickness 0.9)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+"
+		(at 37.5 105 0)
+		(layer "B.Cu")
+		(uuid "cef0418b-7e2a-4e2d-bffc-354d3ef0f7e2")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "-"
+		(at 54 105 0)
+		(layer "B.Cu")
+		(uuid "ddf5f32e-df13-419a-9527-7e3614ab5090")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 78.697315 19.302685)
 		(end 78.697315 23.302685)
@@ -20927,12 +20970,12 @@
 		(uuid "0ba3e068-4bec-4936-b74c-ee45bbef6ad6")
 	)
 	(segment
-		(start 40.387315 91.302685)
-		(end 40.387315 99.492685)
+		(start 41.75 100.85537)
+		(end 41.75 103.4675)
 		(width 2)
 		(layer "B.Cu")
 		(net 2)
-		(uuid "0e718896-9e28-4c08-b529-8e7e87aca2f3")
+		(uuid "24a3dc9e-0a16-478d-ba8a-b39fe351a982")
 	)
 	(segment
 		(start 59.697315 72.302685)
@@ -21023,20 +21066,20 @@
 		(uuid "7113b6ab-d4fa-4255-adba-221445445f01")
 	)
 	(segment
-		(start 40.387315 99.492685)
-		(end 41.697315 100.802685)
-		(width 2)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "74f8f651-b25a-4142-aa99-fb08b36240ea")
-	)
-	(segment
 		(start 27.697315 71.802685)
 		(end 10.197315 71.802685)
 		(width 2)
 		(layer "B.Cu")
 		(net 2)
 		(uuid "860c2a74-fbd9-421d-9076-848ce96aafef")
+	)
+	(segment
+		(start 40.387315 91.302685)
+		(end 40.387315 99.492685)
+		(width 2)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "87e31063-b277-4067-bea5-e7e8d6b6facd")
 	)
 	(segment
 		(start 80.197315 73.697315)
@@ -21069,6 +21112,14 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "cd14025a-e71c-4346-a45d-9af62b8999fd")
+	)
+	(segment
+		(start 40.387315 99.492685)
+		(end 41.75 100.85537)
+		(width 2)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "cef4b599-eead-4319-ac06-97df62dfd9db")
 	)
 	(segment
 		(start 60.197315 52.802685)

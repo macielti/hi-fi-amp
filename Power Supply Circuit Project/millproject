@@ -20,7 +20,7 @@ mill-feed = 100mm/min
 mill-infeed = 0.1mm
 mill-speed = 4700rpm
 voronoi = false
-zwork = -0.7mm
+zwork = -0.5mm
 extra-passes = 0
 offset = 0.1mm
 
@@ -35,7 +35,7 @@ zdrill = -0.3mm
 
 #cutting
 
-cut-feed = 100mm/min
+cut-feed = 200mm/min
 cut-infeed = 0.1mm
 cut-side = back
 cut-speed = 3000rpm
