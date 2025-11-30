@@ -28,10 +28,10 @@ offset = 0.1mm
 
 drill-feed = 25mm/min
 drill-side = back
-drill-speed = 4700rpm
+drill-speed = 3000rpm
 drills-available = 1.0mm, 2.5mm
 nog81 = true
-zdrill = -0.7mm
+zdrill = -0.9mm
 
 #cutting - Not Validated
 
