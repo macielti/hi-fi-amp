@@ -1,0 +1,46 @@
+# general
+
+metric = true
+metricoutput = true
+nog64 = true
+nom6 = true
+zchange = 2.0mm
+zsafe = 2.0mm
+
+back = Volume Control Module-B_Cu.gbr
+back-output = Volume Control Module-B_Cu.gbr.ngc
+drill = Volume Control Module.drl
+drill-output = Volume Control Module.drl.ngc
+outline = Volume Control Module-Edge_Cuts.gbr
+outline-output = Volume Control Module-Edge_Cuts.gbr.ngc
+
+# milling
+
+mill-feed = 100mm/min
+mill-infeed = 0.1mm
+mill-speed = 4700rpm
+voronoi = false
+zwork = -0.7mm
+extra-passes = 0
+offset = 0.1mm
+
+# drilling
+
+drill-feed = 25mm/min
+drill-side = back
+drill-speed = 4700rpm
+drills-available = 1.0mm, 2.5mm
+nog81 = true
+zdrill = -0.5mm
+
+#cutting - Not Validated
+
+cut-feed = 100mm/min
+cut-infeed = 0.1mm
+cut-side = back
+cut-speed = 3000rpm
+cutter-diameter = 1.5mm
+zcut = -1.8mm
+bridges = 1.0mm
+bridgesnum = 4
+zbridges = -0.5mm
